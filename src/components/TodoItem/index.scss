@@ -2,24 +2,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: .7rem;
+  height: 0.7rem;
   border-bottom: 1px solid #ddd;
 
   .check-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: .5rem;
-    height: .5rem;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .check-input {
+    width: 0.1rem;
+    height: 0.1rem;
   }
 
   .content {
     flex: 1;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    min-width:0;
-    font-size: .16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+    font-size: 0.16rem;
   }
 
   .btn-group {
@@ -28,8 +33,8 @@
     width: 1.7rem;
 
     .btn {
-      margin-left: .1rem;
-      font-size: .12rem;
+      margin-left: 0.1rem;
+      font-size: 0.12rem;
     }
   }
 }

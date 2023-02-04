@@ -7,7 +7,7 @@ function TodoItem(props) {
   return (
     <li className="todo-item">
       <div className="check-box">
-        <input type="checkbox" checked={data.completed} />
+        <input type="checkbox" checked={data.completed} className="check-input"/>
       </div>
       <span
         className="content"
